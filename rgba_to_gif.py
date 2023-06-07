@@ -20,4 +20,5 @@ def convert(input_folder, output_path):
                 disposal=2,
                 optimize=True)
 
-convert(ANIM_FOLDER, OUTPUT_FILE)
+if __name__ == '__main__':
+    convert(ANIM_FOLDER, OUTPUT_FILE)
